@@ -4,7 +4,7 @@ const Order = require("../models/Order");
 const Post = require("../models/Post");
 const crypto = require("crypto");
 
-// Create a new instance of Razorpay
+//a new instance for Razorpay
 const razorpayInstance = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
   key_secret: process.env.RAZORPAY_SECRET,
